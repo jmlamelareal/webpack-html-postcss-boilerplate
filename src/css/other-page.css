@@ -1,3 +1,11 @@
 .other-page-template {
-    background-color: yellow;
+  background-color: yellow;
+
+  &--red {
+    background-color: red;
+  }
+}
+
+.other-page-template:fullscreen {
+  background-color: blue;
 }
